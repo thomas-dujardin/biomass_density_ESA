@@ -16,10 +16,10 @@ This directory only estimates biomass density in the Amazon basin, allowing the 
 
 Copernicus-FM v1 is slightly modified. At the core, it is supported by a ViT-base-patch-16 Vision Transformers, which, by default, outputs one [CLS] token. We tweak this output to obtain the rest of the output patch embeddings. If *n_embed* is the dimension of the ViT-B used by CFM-v1, *N* is the number of embedded patches, *B* is the batch size, *C* is the number of channels (>3 in this sceneratio, as we are also interested in SAR and MS imagery), and *H, W* are respectively the height and width of the input image. Roughly, the pipeline is as follows:
 
-** <p align="center">
-(B, C, H, W) -> Copernicus-FM v1 = (B, N, n_embed) ->
+<p align="center">
+**(B, C, H, W) -> Copernicus-FM v1 = (B, N, n_embed) ->
 UNet upper branch (Conv2Ds) = (B, 1, H, W) -> (optionally) UResNet34 refiner = (B, 1, H, W) ->
-pixelize = (B, 1, H, W) (final output map)
-</p> **
+pixelize = (B, 1, H, W) (final output map)**
+</p>
 
 Which is summarized in the diagram below:
