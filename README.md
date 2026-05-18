@@ -21,4 +21,4 @@ Copernicus-FM v1 is slightly modified. At its core, it is mainly supported by a 
 
 Which is summarized in the diagram below:
 
-
+![alt text](https://github.com/thomas-dujardin/biomass_density_ESA/blob/main/assets/biomass.png?raw=true)
