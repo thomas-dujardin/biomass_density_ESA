@@ -4,7 +4,7 @@
 # <h1 align="center">Biomass Density Estimation in the Amazon basin using SAR and MS</h1>
 
 [![License: Code](https://img.shields.io/badge/License--Code-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![License: model](https://img.shields.io/badge/License--Model-CC--BY--NC--SA--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: model](https://img.shields.io/badge/License--Model-CC--BY--NC--SA--4.0-blue.svg)]([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 
 This GitHub directory contains the implementation of biomass density estimation for the Amazon basin of Use Case 2b. The grant agreement stipulates:
 
