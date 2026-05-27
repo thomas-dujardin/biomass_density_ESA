@@ -1,7 +1,7 @@
 # <p align="center">Use Case 2b, Work Packages 4 and 5</p>
 ### <p align="center">Project: 101130544 — ThinkingEarth — HORIZON-EUSPA-2022-SPACE</p>
 
-# <p align="center">Biomass Density Estimation in the Amazon basin using SAR and MS</p>
+# <h1 align="center">Biomass Density Estimation in the Amazon basin using SAR and MS</h1>
 
 [![License: Code](https://img.shields.io/badge/License--Code-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License: model](https://img.shields.io/badge/License--Model-CC--BY--NC--SA--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
