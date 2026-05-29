@@ -45,19 +45,19 @@ conda activate biomass
 pip install -r requirements.txt
 
 ## Minimal command, experiment examples, inference
-- # Runs the model with the random seed and hyperparameters we've used, on the same data split. The Copernicus-FM v1 encoder is frozen, and the refiner is turned off;
+- ### Runs the model with the random seed and hyperparameters we've used, on the same data split. The Copernicus-FM v1 encoder is frozen, and the refiner is turned off;
   python biomass_density.py --use_gpu --nr_epochs 20 --train_batch_size 4
 
-- # Frozen Copernicus-FM encoder, train decoder/refiner
+- ### Frozen Copernicus-FM encoder, train decoder/refiner
   python biomass_density.py
   
-- # Train all components
+- ### Train all components
   python biomass_density.py --train_everything
 
-- # Randomly initialize Copernicus-FM
+- ### Randomly initialize Copernicus-FM
   python biomass_density.py --random_init_copernicus
 
-- # Disable refiner
+- ### Disable refiner
   python biomass_density.py --no-refiner_on
 
 These arguments can be combined.
